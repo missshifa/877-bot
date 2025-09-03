@@ -1,11 +1,11 @@
 var request = require("request");const { readdirSync, readFileSync, writeFileSync, existsSync, copySync, createWriteStream, createReadStream } = require("fs-extra");
 module.exports.config = {
-	name: "admin",
+	name: "admincmd",
 	version: "1.0.5",
 	hasPermssion: 0,
 	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
 	description: "Admin Config",
-	commandCategory: "Admin",
+	commandCategory: "Admincmd",
 	usages: "Admin",
     cooldowns: 2,
     dependencies: {
