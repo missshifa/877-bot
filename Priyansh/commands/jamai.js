@@ -20,7 +20,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)
   
    mess = "{name}"
-  if (event.body.indexOf("shifat jamai","shifat i love u","@S H I F A T","jamai","zamai") == 0 || (event.body.indexOf("bot") == 0)) {
+  if (event.body.indexOf("shifat jamai","shifat i love u","@S H I F A T","jamai","zamai") == 0 || (event.body.indexOf("jamai") == 0)) {
     var msg = {
       body: `<(｀^´)>${name},  \n\n✿✦\n ${rand} ✦✿\n\n❤️sʜɪғᴀᴛ✿ `
     }
