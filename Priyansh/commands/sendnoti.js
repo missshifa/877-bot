@@ -48,7 +48,7 @@ var abc = event.messageReply.attachments[0].url;
 	for (const idThread of allThread) {
 		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
 		else {
-			api.sendMessage({body: `` + args.join(` `) + `\n\nfrom Admin: ${name}`,attachment: fs.createReadStream(path) }, idThread, (error, info) => {
+			api.sendMessage({body: `` + args.join(` `) + `\n\n📢 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍\n𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍: ${name}\n\n━━━━━━━━━━━━━━━｡^‿^｡`,attachment: fs.createReadStream(path) }, idThread, (error, info) => {
 				if (error) cantSend.push(idThread);
 			});
 			count++;
@@ -65,7 +65,7 @@ else {
 	for (const idThread of allThread) {
 		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
 		else {
-			api.sendMessage(`` + args.join(` `) + `\n\nfrom Admin: ${name}`, idThread, (error, info) => {
+			api.sendMessage(`` + args.join(` `) + `\n\n: ${name}`, idThread, (error, info) => {
 				if (error) cantSend.push(idThread);
 			});
 			count++;
