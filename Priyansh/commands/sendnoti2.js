@@ -64,7 +64,8 @@ else {
 	for (const idThread of allThread) {
 		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
 		else {
-			api.sendMessage("»\x41\x6e\x6e\x6f\x75\x6e\x63\x65\x6d\x65\x6e\x74\x20\x66\x72\x6f\x6d\x20\x74\x68\x65\x20\x41\x64\x6d\x69\x6e\x20\x50\x72\x69\x79\x61\x6e\x73\x68\x21«\n\n" + args.join(` `), idThread, (error, info) => {
+			api.sendMessage("» 📢 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍
+━━━━━━━━━━━━━━━ «\n\n" + args.join(` `), idThread, (error, info) => {
 				if (error) cantSend.push(idThread);
 			});
 			count++;
