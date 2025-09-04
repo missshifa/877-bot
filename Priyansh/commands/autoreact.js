@@ -1,13 +1,8 @@
-/**
-* @author Zeeshan Altaf
-* @warn Do not edit code or edit credits
-* @Dont Change This Credits Otherwisw Your Bot Lol
-*/
 module.exports.config = {
 	name: "autoreact",
 	version: "1.1.1",
 	hasPermission: 0,
-	credits: "Zeeshan Altaf",
+	credits: "Shifat",
 	description: "Dont Change This Creadit Otherwise Your Bot is Lol",
 	commandCategory: "No Prefix",
 	cooldowns: 0,
@@ -66,4 +61,5 @@ react.includes("Happy Birdhday") || react.includes("Gud Nyt") || react.includes(
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
   }
+
 
