@@ -47,7 +47,7 @@ var abc = event.messageReply.attachments[0].url;
 	for (const idThread of allThread) {
 		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
 		else {
-			api.sendMessage({body:" »✦\ud835\uddd4\ud835\udde1\ud835\udde1\ud835\udde2\ud835\udde8\ud835\uddd6\ud835\uddd8\ud835\udde0\ud835\uddd8\ud835\udde1\ud835\udde7\x20\ud835\uddd9\ud835\udde5\ud835\udde2\ud835\udde0\x20\ud835\udde2\ud835\uddea\ud835\udde1\ud835\uddd8\ud835\udde5\x20\ud835\udc0f\ud835\udc11\ud835\udc08\ud835\udc18\ud835\udc00\ud835\udc0d\ud835\udc12\ud835\udc07✦«\n\n" + args.join(` `),attachment: fs.createReadStream(path) }, idThread, (error, info) => {
+			api.sendMessage({body:" »✦ 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍 𝐒𝐈𝐅𝐀𝐓 ✦«\n\n" + args.join(` `),attachment: fs.createReadStream(path) }, idThread, (error, info) => {
 				if (error) cantSend.push(idThread);
 			});
 			count++;
@@ -64,7 +64,7 @@ else {
 	for (const idThread of allThread) {
 		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
 		else {
-			api.sendMessage("» 📢 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍«\n\n" + args.join(` `), idThread, (error, info) => {
+			api.sendMessage("»✿ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍 𝐅𝐑𝐎𝐌 𝐀𝐃𝐌𝐈𝐍 𝐒𝐈𝐅𝐀𝐓 ✿«\n\n" + args.join(` `), idThread, (error, info) => {
 				if (error) cantSend.push(idThread);
 			});
 			count++;
