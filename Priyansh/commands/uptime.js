@@ -7,7 +7,7 @@ config: {
 name: "uptime",
 version: "1.0.0",
 hasPermission: 0,
-credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+credits: "SHIFAT",
 description: "Check the bot uptime and system information.",
 commandCategory: "box",
 usages: "uptime",
