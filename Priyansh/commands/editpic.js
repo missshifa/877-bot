@@ -3,7 +3,7 @@ const axios = require('axios');
 const apiURL = "https://smfahim.xyz/gedit";
  
 module.exports.config = {
-  name: "refine",
+  name: "edit",
   version: "6.9",
   credits: "API Fahim mode by Ullash ッ",
   countDown: 5,
